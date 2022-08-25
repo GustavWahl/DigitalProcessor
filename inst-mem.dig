@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>LAYOUT</shapeType>
+    </entry>
+    <entry>
+      <string>Height</string>
+      <int>5</int>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>5</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="100" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="220" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="900" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>PROGS</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>OUT</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>quad1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00001,e3a01001,e3a02001,e3a03001,eb000000,e2800000,e00c0090,e001019c,e0020290,
+e0810002,e0800003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\quadratic_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>quad2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00002,e3a01002,e3a02003,e3a03004,eb000000,e2800000,e00c0090,e001019c,e0020290,
+e0810002,e0800003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\1_quadratic_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>max3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00001,e3a01002,e3a02003,eb000004,e2800000,e1500001,ca000000,e1a00001,e12fff1e,
+e24dd008,e58de000,ebfffff8,e1a01002,ebfffff6,e59de000,e28dd008,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\2_max_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>max3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0001e,e3a0100a,e3a02014,eb000004,e2800000,e1500001,ca000000,e1a00001,e12fff1e,
+e24dd008,e58de000,ebfffff8,e1a01002,ebfffff6,e59de000,e28dd008,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\3_max3_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>FindMax</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e24dd014,e3a00001,e58d0000,
+e3a00002,e58d0004,e3a00003,e58d0008,e3a00004,e58d000c,e3a00005,e58d0010,e1a0000d,
+e3a01005,e3a02000,e3a03000,eb000000,e2800000,e3a02001,e5903000,e1520001,aa000009,
+e1a02102,e0800002,e590c000,e0400002,e1a02122,e15c0003,da000000,e1a0300c,e2822001,
+eafffff3,e1a00003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\4_find_max.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>FindMax</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e24dd028,e3a00001,e58d0000,
+e3a00063,e58d0004,e3a00001,e58d0008,e3a00002,e58d000c,e3a00003,e58d0010,e3a00004,
+e58d0014,e3a00005,e58d0018,e3a00006,e58d001c,e3a00007,e58d0020,e3a00000,e58d0024,
+e1a0000d,e3a0100a,e3a02000,e3a03000,eb000000,e2800000,e3a02001,e5903000,e1520001,
+aa000008,e1a02102,e0800002,e1a02122,e590c000,e15c0003,da000000,e1a0300c,e2822001,
+eafffff4,e1a00003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\5_find_max_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>FibRec</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0000a,e28dd080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,eb000000,e2800000,e24dd010,
+e58de000,e3500000,a00000a,e3500001,a000008,e58d0004,e2400001,ebfffff6,e58d0008,e59d0004,
+e2400002,ebfffff2,e59d1008,e0800001,e59de000,e28dd010,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\6_fib_rec_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>FibRec</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00013,eb000006,e2800000,e28dd080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e08dd00d,
+e24dd010,e58de000,e3500000,a00000a,e3500001,a000008,e58d0004,e2400001,ebfffff6,e58d0008,
+e59d0004,e2400002,ebfffff2,e59d1008,e0800001,e59de000,e28dd010,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\7_fib_rec_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>merge</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e24dd008,e3a00002,e58d0000,
+e3a00001,e58d0004,e1a0000d,e24dd008,e3a03002,e58d3000,e3a03001,e58d3004,e1a0300d,
+e3a01000,e3a02002,e3a0a000,e3a0b000,eb000000,e2800000,e0814002,e1a040a4,e2845001,
+e2844001,e1a06001,e1a08002,e1a09001,e1560002,aa00003a,e15a0004,1a00000b,e1a05105,
+e0800005,e590c000,e0400005,e1a05125,e1a06106,e0833006,e583c000,e0433006,e1a06126,
+e2855001,ea00002a,e2822001,e152000b,1a00000c,e1a01101,e0800001,e590c000,e0400001,
+e1a01121,e1a06106,e0833006,e583c000,e0433006,e1a06126,e2811001,e2422001,ea00001a,
+e2422001,e1a01101,e0800001,e5907000,e0400001,e1a01121,e1a05105,e0800005,e590c000,
+e0400005,e1a05125,e157000c,aa000006,e1a06106,e0833006,e5837000,e0433006,e1a06126,
+e2811001,ea000006,e1a06106,e0833006,e583c000,e0433006,e1a06126,e2855001,eaffffff,
+e2866001,eaffffc2,e3a06000,e1560008,ca000009,e1a06106,e0833006,e0800006,e5937000,
+e0433006,e5807000,e0400006,e1a06126,e2866001,eafffff3,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\8_merge_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>merge</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e24dd008,e3a00001,e58d0000,
+e3a00001,e58d0004,e1a0000d,e24dd008,e3a00000,e58d0008,e58d000c,e1a0300d,e3a01000,
+e3a02002,eb000000,e2800000,e0814002,e1a040a4,e2845001,e2844001,e1a06001,e1a08002,
+e1a09001,e2422001,e1560002,aa000032,e15a0004,1a000009,e1a05105,e0800005,e1a05125,
+e590c000,e1a06106,e0833006,e1a06126,e583c000,e2855001,ea000024,e2822001,e152000b,
+1a00000a,e1a01101,e0800001,e1a01121,e590c000,e1a06106,e0833006,e1a06126,e583c000,
+e2811001,e2422001,ea000016,e2422001,e1a01101,e0800001,e1a01121,e5907000,e1a05105,
+e0800005,e1a05125,e590c000,e157000c,aa000005,e1a06106,e0833006,e1a06126,e5837000,
+e2811001,ea000005,e1a06106,e0833006,e1a06126,e583c000,e2855001,eaffffff,e2866001,
+eaffffca,e3a06000,e1560008,ca000007,e1a06106,e0833006,e0800006,e5937000,e5807000,
+e1a06126,e2866001,eafffff5,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\9_merge_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>merge</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e24dd028,e3a00002,e58d0000,
+e3a00004,e58d0004,e3a00008,e58d0008,e3a0000a,e58d000c,e3a0000b,e58d0010,e3a00001,
+e58d0014,e3a00003,e58d0018,e3a00007,e58d001c,e3a00009,e58d0020,e3a00009,e58d0024,
+e1a0000d,e24dd028,e3a00000,e58d0028,e58d002c,e58d0030,e58d0034,e58d0038,e58d003c,
+e58d0040,e58d0044,e58d0048,e58d004c,e1a0300d,e3a01000,e3a0200a,eb000000,e2800000,
+e0814002,e1a040a4,e2845001,e2844001,e1a06001,e1a08002,e1a09001,e2422001,e1560002,
+aa000032,e15a0004,1a000009,e1a05105,e0800005,e1a05125,e590c000,e1a06106,e0833006,
+e1a06126,e583c000,e2855001,ea000024,e2822001,e152000b,1a00000a,e1a01101,e0800001,
+e1a01121,e590c000,e1a06106,e0833006,e1a06126,e583c000,e2811001,e2422001,ea000016,
+e2422001,e1a01101,e0800001,e1a01121,e5907000,e1a05105,e0800005,e1a05125,e590c000,
+e157000c,aa000005,e1a06106,e0833006,e1a06126,e5837000,e2811001,ea000005,e1a06106,
+e0833006,e1a06126,e583c000,e2855001,eaffffff,e2866001,eaffffca,e3a06000,e1560008,
+ca000007,e1a06106,e0833006,e0800006,e5937000,e5807000,e1a06126,e2866001,eafffff5,
+e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\10_merge_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>merge sort 11</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e24dd004,e3a00001,e58d0000,
+e1a0000d,e24dd004,e3a03000,e58d3004,e1a0300d,e3a01000,e3a02001,eb000049,e2800000,
+e0814002,e1a040a4,e2845001,e2844001,e1a06001,e1a08002,e1a09001,e2422001,e1560002,
+aa000032,e15a0004,1a000009,e1a05105,e0800005,e1a05125,e590c000,e1a06106,e0833006,
+e1a06126,e583c000,e2855001,ea000024,e2822001,e152000b,1a00000a,e1a01101,e0800001,
+e1a01121,e590c000,e1a06106,e0833006,e1a06126,e583c000,e2811001,e2422001,ea000016,
+e2422001,e1a01101,e0800001,e1a01121,e5907000,e1a05105,e0800005,e1a05125,e590c000,
+e157000c,aa000005,e1a06106,e0833006,e1a06126,e5837000,e2811001,ea000005,e1a06106,
+e0833006,e1a06126,e583c000,e2855001,eaffffff,e2866001,eaffffca,e3a06000,e1560008,
+ca000007,e1a06106,e0833006,e0800006,e5937000,e5807000,e1a06126,e2866001,eafffff5,
+e12fff1e,e24dd020,e58de000,e1520001,da000011,e0814002,e1a040a4,e58d1004,e58d2008,
+e58d400c,e1a02004,ebfffff4,e59d400c,e59d2008,e59d1004,e58d1004,e58d2008,e2844001,
+e1a01004,ebffffec,e59d2008,e59d1004,ebffffa0,e59de000,e28dd020,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\11_merge_sort_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>merge sort 12</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a0d080,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e08dd00d,e24dd008,e3a00002,e58d0000,
+e3a00001,e58d0004,e1a0000d,e24dd008,e3a03000,e58d3008,e58d300c,e1a0300d,e3a01000,
+e3a02002,eb000049,e2800000,e0814002,e1a040a4,e2845001,e2844001,e1a06001,e1a08002,
+e1a09001,e2422001,e1560002,aa000032,e15a0004,1a000009,e1a05105,e0800005,e1a05125,
+e590c000,e1a06106,e0833006,e1a06126,e583c000,e2855001,ea000024,e2822001,e152000b,
+1a00000a,e1a01101,e0800001,e1a01121,e590c000,e1a06106,e0833006,e1a06126,e583c000,
+e2811001,e2422001,ea000016,e2422001,e1a01101,e0800001,e1a01121,e5907000,e1a05105,
+e0800005,e1a05125,e590c000,e157000c,aa000005,e1a06106,e0833006,e1a06126,e5837000,
+e2811001,ea000005,e1a06106,e0833006,e1a06126,e583c000,e2855001,eaffffff,e2866001,
+eaffffca,e3a06000,e1560008,ca000007,e1a06106,e0833006,e0800006,e5937000,e5807000,
+e1a06126,e2866001,eafffff5,e12fff1e,e24dd020,e58de000,e1520001,da000011,e0814002,
+e1a040a4,e58d1004,e58d2008,e58d400c,e1a02004,ebfffff4,e59d400c,e59d2008,e59d1004,
+e58d1004,e58d2008,e2844001,e1a01004,ebffffec,e59d2008,e59d1004,ebffffa0,e59de000,
+e28dd020,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\12_merge_sort_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>quad14</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00001,e3a01001,e3a02001,e3a03001,eb000000,e2800000,e00c0090,e001019c,e0020290,
+e0810002,e0800003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\quadratic_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>quad15</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>e3a00001,e3a01001,e3a02001,e3a03001,eb000000,e2800000,e00c0090,e001019c,e0020290,
+e0810002,e0800003,e12fff1e</data>
+        </entry>
+        <entry>
+          <string>lastDataFile</string>
+          <string>C:\Users\gussw\OneDrive\Documents\Circuits\Lab06\project05-GustavWahlUSF\lab07\project06\quadratic_s.hex</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="1660"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="240" y="640"/>
+      <p2 x="340" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1280"/>
+      <p2 x="600" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="260"/>
+      <p2 x="900" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="900"/>
+      <p2 x="340" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="520"/>
+      <p2 x="340" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1160"/>
+      <p2 x="340" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="780"/>
+      <p2 x="500" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="400"/>
+      <p2 x="340" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="400"/>
+      <p2 x="900" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1680"/>
+      <p2 x="680" y="1680"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="660"/>
+      <p2 x="480" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1300"/>
+      <p2 x="340" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="280"/>
+      <p2 x="340" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="280"/>
+      <p2 x="900" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1560"/>
+      <p2 x="340" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="540"/>
+      <p2 x="460" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1180"/>
+      <p2 x="580" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="160"/>
+      <p2 x="240" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="160"/>
+      <p2 x="340" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="800"/>
+      <p2 x="340" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="420"/>
+      <p2 x="440" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="420"/>
+      <p2 x="900" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1060"/>
+      <p2 x="340" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1700"/>
+      <p2 x="340" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="680"/>
+      <p2 x="340" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="300"/>
+      <p2 x="420" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="300"/>
+      <p2 x="900" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1580"/>
+      <p2 x="660" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="560"/>
+      <p2 x="340" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1200"/>
+      <p2 x="340" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="180"/>
+      <p2 x="900" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1460"/>
+      <p2 x="340" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="440"/>
+      <p2 x="340" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="440"/>
+      <p2 x="900" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1080"/>
+      <p2 x="560" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="320"/>
+      <p2 x="340" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="320"/>
+      <p2 x="900" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="960"/>
+      <p2 x="340" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1600"/>
+      <p2 x="340" y="1600"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="200"/>
+      <p2 x="340" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="200"/>
+      <p2 x="900" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1480"/>
+      <p2 x="640" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1100"/>
+      <p2 x="340" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="460"/>
+      <p2 x="900" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1360"/>
+      <p2 x="340" y="1360"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="340"/>
+      <p2 x="1000" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="340"/>
+      <p2 x="900" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="980"/>
+      <p2 x="540" y="980"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="220"/>
+      <p2 x="900" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="860"/>
+      <p2 x="340" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1500"/>
+      <p2 x="340" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="480"/>
+      <p2 x="900" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="100"/>
+      <p2 x="260" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="1380"/>
+      <p2 x="620" y="1380"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1000"/>
+      <p2 x="340" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="360"/>
+      <p2 x="900" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1260"/>
+      <p2 x="340" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="240"/>
+      <p2 x="900" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="880"/>
+      <p2 x="520" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="760"/>
+      <p2 x="340" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1400"/>
+      <p2 x="340" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1660"/>
+      <p2 x="340" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="380"/>
+      <p2 x="900" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="260"/>
+      <p2 x="480" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="420"/>
+      <p2 x="640" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="100"/>
+      <p2 x="260" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="900"/>
+      <p2 x="260" y="1000"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="680"/>
+      <p2 x="260" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1200"/>
+      <p2 x="260" y="1300"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="440"/>
+      <p2 x="260" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="200"/>
+      <p2 x="260" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1500"/>
+      <p2 x="260" y="1600"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1000"/>
+      <p2 x="260" y="1100"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1300"/>
+      <p2 x="260" y="1400"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="800"/>
+      <p2 x="260" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="560"/>
+      <p2 x="260" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="320"/>
+      <p2 x="260" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1600"/>
+      <p2 x="260" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1100"/>
+      <p2 x="260" y="1200"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="1400"/>
+      <p2 x="260" y="1500"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="200"/>
+      <p2 x="420" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="360"/>
+      <p2 x="580" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="300"/>
+      <p2 x="520" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="460"/>
+      <p2 x="680" y="1680"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="240"/>
+      <p2 x="460" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="400"/>
+      <p2 x="620" y="1380"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="160"/>
+      <p2 x="240" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="760"/>
+      <p2 x="240" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="520"/>
+      <p2 x="240" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="280"/>
+      <p2 x="240" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1560"/>
+      <p2 x="240" y="1660"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1060"/>
+      <p2 x="240" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1360"/>
+      <p2 x="240" y="1460"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="860"/>
+      <p2 x="240" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="640"/>
+      <p2 x="240" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1160"/>
+      <p2 x="240" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="400"/>
+      <p2 x="240" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1460"/>
+      <p2 x="240" y="1560"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="960"/>
+      <p2 x="240" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="1260"/>
+      <p2 x="240" y="1360"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="340"/>
+      <p2 x="560" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="280"/>
+      <p2 x="500" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="440"/>
+      <p2 x="660" y="1580"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="220"/>
+      <p2 x="440" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="100"/>
+      <p2 x="920" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="380"/>
+      <p2 x="600" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="320"/>
+      <p2 x="540" y="980"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
